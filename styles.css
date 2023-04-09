@@ -18,11 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
-}
-
-#links-container {
-
+    padding: 8px 96px;
 }
 
 ul {
@@ -35,7 +31,17 @@ ul {
 
 #hero-container {
     display: flex;
+    align-content: center;
+    padding: 48px 96px;
+    gap: 24px;
+}
+
+#left-content {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 0;
 }
 
 #main-hero-text {
@@ -47,6 +53,7 @@ ul {
 #hero-second-text {
     font-size: 18px;
     color: #e5e7eb;
+
 }
 
 #btn-1 {
@@ -59,6 +66,18 @@ ul {
     max-width: 128px;
 }
 
+#right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
 #placeholder-img {
     color: #e5e7eb;
+}
+
+img {
+    border-radius: 2%;
+    max-width: 100%;
 }
