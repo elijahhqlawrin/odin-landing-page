@@ -196,3 +196,11 @@ ul {
     align-items: center;
     margin-left: auto;
 }
+
+#footer {
+    background-color: #1f2937;
+    color: #e5e7e5;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
