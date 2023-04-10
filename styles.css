@@ -118,3 +118,27 @@ ul {
     border-radius: 2%;
     max-width: 100%;
 }
+
+#quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7e5;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+    max-width: 800px;
+    padding: 32px 64px 0 64px;
+    margin: 16px;
+    align-self: center;
+}
+
+#quote-section > p {
+    font-size: 24px;
+    margin-right: 128px;
+    align-self: flex-end;
+}
